@@ -1,0 +1,6 @@
+[submodule "hEiMdaLL"]
+	path = hEiMdaLL
+	url = https://github.com/bnidevs/hEiMdaLL
+[submodule "FunTacos"]
+	path = FunTacos
+	url = https://github.com/Mt-Books/FunTacos
