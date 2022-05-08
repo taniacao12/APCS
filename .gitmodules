@@ -4,3 +4,6 @@
 [submodule "FunTacos"]
 	path = FunTacos
 	url = https://github.com/Mt-Books/FunTacos
+[submodule "MuddyPotatoes"]
+	path = MuddyPotatoes
+	url = https://github.com/qzhou0/MuddyPotatoes
