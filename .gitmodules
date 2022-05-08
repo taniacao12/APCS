@@ -7,3 +7,6 @@
 [submodule "MuddyPotatoes"]
 	path = MuddyPotatoes
 	url = https://github.com/qzhou0/MuddyPotatoes
+[submodule "YoRPG_TeamMonster"]
+	path = YoRPG_TeamMonster
+	url = https://github.com/jerry1ye10/YoRPG_TeamMonster
