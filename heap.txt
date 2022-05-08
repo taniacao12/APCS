@@ -1,0 +1,29 @@
+﻿Tania Cao
+APCS2 pd2
+HW#48 -- Heap o’Trouble
+2018-05-13
+
+One Way: 
+    Adding to a Heap:
+    1. Iterate through _heap
+        a) If the addValue is greater than the current index's value, add
+           addValue to (current index - 1)
+        b) If the iteration reaches the last element and addValue is smaller
+           than the last element, add addValue to the end of the heap
+
+    Removing from a Heap:
+    1. Create new Arraylist _temp
+    2. Add all elements in _heap to _temp except the last element
+    3. Set _heap as _temp
+
+Second Way:
+    Adding to a Heap:
+    1. Add addValue to the end of _heap
+
+    Removing from a Heap:
+    1. Create new Arraylist _temp
+    2. Find the index of the minValue
+        a) Iterate through the list to find minValue using compareTo()
+    3. Add all elements in _heap to _temp except minValue using index
+       found in step 3
+    4. Set _heap as _temp

@@ -1,0 +1,24 @@
+Which jobs are most crucial?
+Planning of the project and the division of the job are most crucial.
+
+
+Which components constitute core functionality (vs non-essential)?
+First, we need to get the most basic working version of Tetris. Then, we will add features such as ForceDrop and rotating the screen.
+
+
+Which components are prerequisites for others?
+UML and flowchart
+
+
+Which tasks can be delegated, and which must be collaboratively tackled?
+The planning of the project, including UML diagrams and flowcharts, should be collaboratively tackled. The coding of the classes can delegated.
+
+
+What is the timeline, and how does it accommodate setbacks, course changes?
+
+May 30: completion of UML diagrams
+May 31: flowcharts
+June 4: basic working version of Tetris
+June 9: completion of Tetris with added features
+
+This timeline gives us time to test and change our code if something is not working properly.

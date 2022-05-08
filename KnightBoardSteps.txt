@@ -1,0 +1,29 @@
+Tania Cao
+APCS2 pd2
+HW#11 -- Get On the Bus
+2018-02-28
+
+HOW A KNIGHT MOVES:                            -2 -1  0  1  2
+|-------------------------------------|       _________________
+|MOVES| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |   -2 |  -  6  -  7  -  |
+|-----|-------------------------------|   -1 |  5  -  -  -  8  |
+| ROW | 1 | 2 | 2 | 1 |-1 |-2 |-2 |-1 |    0 |  -  -  K  -  -  |
+|-----|-------------------------------|    1 |  4  -  -  -  1  |
+| COL | 2 | 1 |-1 |-2 |-2 |-1 | 1 | 2 |    2 |  -  3  -  2  -  |
+|-------------------------------------|      |_________________|
+
+STEPS TO FIND A SOLUTION:
+0. Given a NxN sized chess board, integers row, col, and moveNum,
+   initiate all integers as 0
+1. Begin from (0,0) --> (0,0) is marked as move 0
+2. Check the first possible move.
+    a) Repeat step 2 by checking the next possible move if...
+        - the block has been marked or if...
+        - the next move is located outside of the chess board's 
+          boundaries
+    b) If the block hasn't been marked, move to that block, mark it as
+       moveNum, and update row col and moveNum. Repeat step 2.
+        - If after the update, moveNum == NxN, the solution for the
+          N-sized chess board has been found.
+    c) If all possible moves have been marked and m != NxN, there is
+          no possible solution for the N-sized chess board.

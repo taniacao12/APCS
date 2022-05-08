@@ -1,0 +1,26 @@
+Tania Cao
+APCS2 pd2
+HW#9 -- Yaaasss Queens
+2018-02-26
+
+|---------------|
+| board | # of  | 
+| size  | queens|
+|---------------|
+|  2x2  |   1   |
+|  3x3  |   2   |
+|  4x4  |   4   |
+|  5x5  |   5   |
+|  6x6  |   6   |
+|  7x7  |   6   |
+|  8x8  |   8   |
+|---------------|
+
+The table above shows the maximum numbers of non-attacking queens that
+can be inserted into the n-sized chess board based on the trials that I
+have completed (didn't do every single trial because that would take too
+much time). The only dataset that I'm not sure of is the 7-sized chess 
+board because based on the previous ones (4,5,6), I was able to place n 
+number of non-attacking queens into n-sized board. As for 2 and 3, it's
+impossible to place n number of non-attacking queens on the board because
+the board is too small and queens have a lot of attack forms.

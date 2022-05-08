@@ -1,0 +1,25 @@
+Supernova -- Angela Tom, Tania Cao, Xinyi Huang
+APCS2 pd2
+HW #58: Keep the Pointy End Pointing Upward
+2018-06-04
+
+Which jobs are most crucial?
+
+Finishing and establishing a working grid is the most crucial task. The grid is essential to making everything functional. After the grid, other parts of a minimum working version is important to finish as soon as possible to give our team time to complete other components of the game.
+We have accomplished none of these tasks so far.
+
+Which components constitute core functionality (vs non-essential)?
+
+Core functionality is the most basic version of tetris. That would include the shape class with at least one shape for the blocks, the tetromino class, which includes all the methods for the shapes, the grid, and the tetris class (main class). Non-essential things would be the other parts that do not constitute a minimum working version of the game. Examples include other shapes, higher levels, advanced gameplay like screen rotation, scoreboards, and fast dropdowns.
+
+Which components are prerequisites for others?
+
+The grid and shape classes are prerequisites for the tetromino class, which is a prerequisite for the tetris class. Lastly, the tetris class is a prerequisite for scoreboard.
+
+Which tasks can be delegated, and which must be collaboratively tackled?
+
+Shapes can be delegated because there are seven, different ones and as long as they works, they will be fine. The grid, the most important part of making everything work, must be collaboratively tackled so that all team members understand how to use it for the other classes like tetromino. The methods in tetromino can be split up and worked on separately as well as for the tetris class. The scoreboard may be worked on collaboratively at the end.
+
+What is the timeline, and how does it accommodate setbacks, course changes?
+
+Our team's timeline will not accommodate setbacks or course changes because there is no time left for any shifts. We need to get a working version by tonight and finish the entire project by tomorrow. There were no and will not have any meetups due to numerous time conflicts.

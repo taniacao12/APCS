@@ -1,0 +1,102 @@
+Supernova
+Xinyi Huang
+Tania Cao
+Angela Tom
+pd 02
+---------------------
+Tetris
+
+/////////// Zone of Reflection \\\\\\\\\\\
+------------------------------------------
+OBSTACLES OVERCOME
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* We started off writing a proposal to make a restaurant simulation, but changed it to an advanced version of the Tetris game after discussions.
+* Get a runnable game.
+
+UNRESOLVED ISSUES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Unable to get hold aspect of the Tetromino working
+* Unable to get the scoreboard working
+* Unable to make the advanced version of the game (randomly flips the board screen)
+
+COOL STUFF LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* How to create buttons on the screen
+* How to use switch as an alternative to the if and else statements
+* How to input images and text into the program
+
+MID-DEVELOPMENT DESIGN CHANGES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* We changed the entire design of the program because we had too many unnecessary classes and some didn't have good names
+* We redid the UML according to the changes mentioned above
+
+LESSONS LEARNED
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* We learned how to communicate more efficiently so that we could finish the project in a smooth and timely manner
+* We learned how to make use of our limited amount of time to do as much work as possible
+* We learned how to use arrays to better move multiple objects at once in the program grid
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+ ______   ______   __   __   __       ______   _______     
+/_____/\ /_____/\ /_/\ /_/\ /_/\     /_____/\ /______/\    
+\:::_ \ \\::::_\/_\:\ \\ \ \\:\ \    \:::_ \ \\::::__\/__  
+ \:\ \ \ \\:\/___/\\:\ \\ \ \\:\ \    \:\ \ \ \\:\ /____/\ 
+  \:\ \ \ \\::___\/_\:\_/.:\ \\:\ \____\:\ \ \ \\:\\_  _\/ 
+   \:\/.:| |\:\____/\\ ..::/ / \:\/___/\\:\_\ \ \\:\_\ \ \ 
+    \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/ 
+==============================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+2018-05-25
+Xinyi  :: Solidify ideas for the project
+Tania  :: Come up with ideas for the project; create devlog.txt
+Angela :: Create and register repo
+
+2018-05-28
+All    :: Examine ideas; edit proposal
+
+2018-05-29
+All    :: Revise the proposal
+
+2018-05-30
+Xinyi  :: Write the UML
+Tania  :: Write the UML; update devlog.txt; update README.md
+Angela :: Create UML and write the UML
+
+2018-05-31
+Xinyi  :: Update UML; update proposal
+Tania  :: Update UML; update proposal; create and write flowchart; update devlog.txt
+Angela :: Update UML; update proposal; write flowchart; update devlog.txt
+
+2018-06-01
+All    :: Create calendar with each person's tasks to find dates to work on the project
+
+2018-06-03
+Xinyi  :: Update UML; work on code
+Tania  :: Create all classes; write all classes; update UML, update README.md update devlog.txt
+Angela :: Update UML; write new plan; update devlog.txt; work on code
+
+2018-06-04
+All    :: Write Tetris class
+
+2018-06-05
+Xinyi  :: Write Tetris class
+Tania  :: Write Tetris, Shape and Tetromino classes
+Angela :: Write new plan; write Shape class; update README.md; update devlog.txt
+
+2018-06-06
+Xinyi  :: Write Tetris, Tetromino and Scoreboard classes
+Tania  :: Write Shape, Tetris and Tetromino classes; find an existing Tetris program (found an outdated one) to use as reference in the the case that we get stuck on the code; update devlog.txt
+Angela :: Write the new plan; update devlog.txt; Write Shape and Grid classes 
+
+2018-06-07
+Xinyi  :: Write Grid class
+Tania  :: Update existing Tetris program
+Angela :: Revise classes; write Grid class
+
+2018-06-08
+Xinyi  :: Write Scoreboard and Queue classes
+Tania  :: Add group code into update; reorganize repo; update README.md; update devlog.txt
+Angela :: Write Scoreboard and Queue classes; revise classes
